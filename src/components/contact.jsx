@@ -6,6 +6,9 @@ const initialState = {
   email: '',
   message: '',
 }
+
+const id = "user_MqFiwrXXoTWzDMJOOfqWY"
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState)
 
@@ -17,10 +20,11 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'contact', 'template_b8mo7mm', e.target, id
       )
       .then(
         (result) => {
