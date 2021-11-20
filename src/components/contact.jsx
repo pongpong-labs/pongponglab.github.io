@@ -29,6 +29,7 @@ export const Contact = (props) => {
       .then(
         (result) => {
           console.log(result.text)
+          alert('문의 이 정상적으로 발송되었습니다.');
           clearState()
         },
         (error) => {
