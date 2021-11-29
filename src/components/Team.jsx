@@ -3,10 +3,9 @@ export const Team = (props) => {
     <div id='team' className='text-center'>
       <div className='container'>
         <div className='col-md-8 col-md-offset-2 section-title'>
-          <h2>Meet the Team</h2>
+          <h2>Pongponglab Team</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            각 분야에서 전문성을 가지고 있는 전문가들이 모였습니다.
           </p>
         </div>
         <div id='row'>

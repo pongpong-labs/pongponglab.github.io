@@ -3,10 +3,9 @@ export const Gallery = (props) => {
     <div id='portfolio' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Gallery</h2>
+          <h2>Portfolio</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            지금까지 작업했던 작업 포트폴리오입니다.
           </p>
         </div>
         <div className='row'>
@@ -16,12 +15,12 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/01-large.jpg'
+                    href='https://play.google.com/store/apps/details?id=com.trip.builder'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Lorem Ipsum</h4>
+                      <h4>Trip Builder</h4>
                     </div>
                     <img
                       src='img/portfolio/01-small.jpg'

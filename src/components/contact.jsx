@@ -46,8 +46,7 @@ export const Contact = (props) => {
               <div className='section-title'>
                 <h2>Contact</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  여러분의 프로젝트를 의뢰해주세요!
                 </p>
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
@@ -59,7 +58,7 @@ export const Contact = (props) => {
                         id='name'
                         name='name'
                         className='form-control'
-                        placeholder='Name'
+                        placeholder='이름'
                         required
                         onChange={handleChange}
                       />
@@ -73,7 +72,7 @@ export const Contact = (props) => {
                         id='email'
                         name='email'
                         className='form-control'
-                        placeholder='Email'
+                        placeholder='이메일'
                         required
                         onChange={handleChange}
                       />
@@ -87,7 +86,7 @@ export const Contact = (props) => {
                     id='message'
                     className='form-control'
                     rows='4'
-                    placeholder='Message'
+                    placeholder='내용'
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -95,7 +94,7 @@ export const Contact = (props) => {
                 </div>
                 <div id='success'></div>
                 <button type='submit' className='btn btn-custom btn-lg'>
-                  Send Message
+                  문의하기
                 </button>
               </form>
             </div>
@@ -132,7 +131,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; Pongponglab Corp.
+            &copy; 2020 Pongponglab
           </p>
         </div>
       </div>
