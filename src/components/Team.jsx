@@ -5,7 +5,7 @@ export const Team = (props) => {
         <div className='col-md-8 col-md-offset-2 section-title'>
           <h2>Pongponglab Team</h2>
           <p>
-            각 분야에서 전문성을 가지고 있는 전문가들이 모였습니다.
+            각 분야 전문가들이 모였습니다.
           </p>
         </div>
         <div id='row'>
