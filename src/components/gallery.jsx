@@ -36,15 +36,15 @@ export const Gallery = (props) => {
                 <div className='hover-bg'>
                   {' '}
                   <a
-                    href='img/portfolio/02-large.jpg'
+                    href='https://play.google.com/store/apps/details?id=co.dalicious.kurrant'
                     title='Project Title'
                     data-lightbox-gallery='gallery1'
                   >
                     <div className='hover-text'>
-                      <h4>Adipiscing Elit</h4>
+                      <h4>커런트 KURRANT</h4>
                     </div>
                     <img
-                      src='img/portfolio/02-small.jpg'
+                      src='https://play-lh.googleusercontent.com/bJwyRpaiNBHO9Fs5jM41jcjdvKyvWvr8tiOKyXIFTSw5Qsfqwu1Z5ILcIw621tLR-rI=w480-h960-rw'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
