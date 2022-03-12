@@ -12,21 +12,21 @@
     {
       "img": "https://avatars.githubusercontent.com/u/43393890?v=4",
       "name": "Park",
-      "job": "Senior Developer"
+      "job": "Project Manager"
     },
     {
       "img": "img/1.jpeg",
-      "name": "Song",
+      "name": "Wie",
       "job": "Senior Developer"
     },
     {
       "img": "img/2.jpeg",
-      "name": "Shin",
-      "job": "Project Manager"
+      "name": "Ha",
+      "job": "Developer"
     }
   ],
   "Contact": {
-    "address": "경상남도 양산시 물금읍 부산대학로 122, 4층 404-5호",
+    "address": "경상남도 양산시 물금읍 부산대학로 122, 4층 404-7호",
     "phone": "+82 10-8496-1736",
     "email": "pongponglab@gmail.com"
   },
