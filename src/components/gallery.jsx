@@ -23,7 +23,7 @@ export const Gallery = (props) => {
                       <h4>Trip Builder</h4>
                     </div>
                     <img
-                      src='img/portfolio/01-small.jpg'
+                      src='https://play-lh.googleusercontent.com/UJEw2XOnyjI17uvKa9x4L2tz3cQPMXO3qjnnGJKgWFdfNKXSZXEqYgJFvW300MgEJ8A=w480-h960-rw'
                       className='img-responsive'
                       alt='Project Title'
                     />{' '}
