@@ -7,7 +7,7 @@ const initialState = {
   message: '',
 }
 
-const id = "user_MqFiwrXXoTWzDMJOOfqWY"
+const id = "service_510v861"
 
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState)
@@ -24,7 +24,7 @@ export const Contact = (props) => {
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'contact', 'template_b8mo7mm', e.target, id
+        'contact', 'template_qt5r2of', e.target, id
       )
       .then(
         (result) => {
