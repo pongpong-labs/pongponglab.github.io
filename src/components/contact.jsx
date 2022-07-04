@@ -28,7 +28,7 @@ export const Contact = (props) => {
       )
       .then(
         (result) => {
-          alert('문의 이 정상적으로 발송되었습니다.');
+          alert('문의 내역이 정상적으로 등록되었습니다.');
           clearState()
         },
         (error) => {
@@ -40,6 +40,7 @@ export const Contact = (props) => {
     <div>
       <div id='contact'>
         <div className='container'>
+        <strong><p>사이트 리뉴얼 중에 있습니다. 빠른 시일내에 업데이트 예정입니다.</p></strong>
           <div className='col-md-8'>
             <div className='row'>
               <div className='section-title'>
@@ -111,7 +112,7 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-phone'></i> Phone
+                  <i className='fa fa-phone'></i> Office Number
                 </span>{' '}
                 {props.data ? props.data.phone : 'loading'}
               </p>
@@ -130,7 +131,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Pongponglab
+            &copy; 2020 pongponglab
           </p>
         </div>
       </div>
