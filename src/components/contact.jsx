@@ -32,7 +32,7 @@ export const Contact = (props) => {
           clearState()
         },
         (error) => {
-          
+          alert('문의 내역이 정상적으로 등록되지 않았습니다.');
         }
       )
   }
@@ -122,14 +122,18 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-envelope-o'></i> Email
                 </span>{' '}
-                {props.data ? props.data.email : 'loading'}
               </p>
+              <a href= {props.data ? "mailto:"  + props.data.email : 'loading'}
+              style={{color: "white"}}> {props.data ? props.data.email : 'loading'}</a>
             </div>
           </div>
         </div>
       </div>
       <div id='footer'>
         <div className='container text-center'>
+          <img 
+            src="https://s3-alpha-sig.figma.com/img/5a1e/9817/65f4ea63e4dd4fd75f8d61997dea0735?Expires=1658707200&Signature=OXErERTO2VvSFRI1xhDmIhTH5tAbUDuB1AvyeWjgnxHb0wd1WQUt5N1dStmdt8jLHspt~bNQ9K1db4N3aQwGEQ3JMKn4Qa8GTOQ67jufgd~qIW7sTV0kqpH7naMnNhBit3SY2YcnUP9zwRWqB2kGy0uaCK~CfPHVHJyHu96z5u8TmCvguSF7ZYOP0AVQjjW5DX0BUl37614ZHqkxVvtASjbPu6reH0lnV1l~VAmd~uTwRizA6IBvwLGvMcWvtc1-tzR4dVNvdTMyvdVYRGKmwx9eKCIc0pawyYLm4jGjs4xn9BS3sgR3ak3~28AEopV23Jp9bt7bpqLY2ewuBoQmNA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            alt='logo'/>
           <p>
             &copy; 2020 pongponglab
           </p>
