@@ -40,6 +40,7 @@ export const Contact = (props) => {
     <div>
       <div id='contact'>
         <div className='container'>
+        <strong><a style={{color: "white", fontSize: 50}} target='_blank' href="https://open.kakao.com/o/sCoK7Bqe">카카오톡 오픈채팅방 문의</a></strong>
         <strong><p>사이트 리뉴얼 중에 있습니다. 빠른 시일내에 업데이트 예정입니다.</p></strong>
           <div className='col-md-8'>
             <div className='row'>
