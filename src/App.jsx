@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
 
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
