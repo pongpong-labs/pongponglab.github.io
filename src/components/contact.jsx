@@ -42,6 +42,8 @@ export const Contact = (props) => {
         <div className='container'>
         <strong><a style={{color: "red", fontSize: 50}} target='_blank' rel="noopener noreferrer" href="https://open.kakao.com/o/sCoK7Bqe">카카오톡 오픈채팅방 문의</a></strong>
         <strong><p>사이트 리뉴얼 중에 있습니다. 빠른 시일내에 업데이트 예정입니다.</p></strong>
+        <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fpongponglab.kr&count_bg=%2379C83D&title_bg=%23555555&icon=flutter.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> <br/>
+
           <div className='col-md-8'>
             <div className='row'>
               <div className='section-title'>
